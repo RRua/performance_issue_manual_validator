@@ -1,13 +1,68 @@
-# React + Vite
+# True positives Validation App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
 
-Currently, two official plugins are available:
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# performance_issue_manual_validator
+Before you begin, ensure you have the following installed:
+
+- Node.js (v14 or higher)
+- npm (Node Package Manager)
+
+### Installation
+
+1. **Clone the repository:**
+
+```
+
+git clone https://github.com/RRua/performance_issue_manual_validator.git
+cd llm-validation-app
+
+```
+
+2. **Install dependencies:**
+
+```
+
+npm install
+
+```
+
+## Usage
+
+This project uses Vite for development and building. Here's how to get started:
+
+- **Development Mode:**
+
+```
+
+npm run dev
+
+```
+
+This command starts the development server with hot module replacement.
+
+- **Building for Production:**
+
+```
+
+npm run build
+
+```
+
+This command builds the app for production to the `dist` folder.
+
+- **Preview the Production Build:**
+
+```
+
+npm run preview
+
+```
