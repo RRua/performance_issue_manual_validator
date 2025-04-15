@@ -23,7 +23,7 @@ Before you begin, ensure you have the following installed:
 ```
 
 git clone https://github.com/RRua/performance_issue_manual_validator.git
-cd llm-validation-app
+cd performance_issue_manual_validator
 
 ```
 
