@@ -254,22 +254,12 @@ const LLMValidationApp = () => {
     <div className="flex flex-col h-screen max-h-screen bg-gray-100">
       {/* Header */}
       <header className="bg-blue-600 text-white p-3 shadow-md">
-        <div className="flex justify-between items-center">
           <div>
             <h1 className="text-2xl font-bold">Manual validation tool for labeling Issue Regressions on Android Projects</h1>
             <p className="pt-1 text-sm text-left opacity-80">
               {pendingItems.length} itens left to classify
             </p>
           </div>
-          <button
-            onClick={exportAllToCSV}
-            className="py-2 px-4 bg-blue-500 hover:bg-blue-400 rounded-lg flex items-center space-x-2 text-sm"
-            disabled={userValidations.length === 0}
-          >
-            <Save size={16} />
-            <span>Export validated to CSV</span>
-          </button>
-        </div>
       </header>
 
       {/* Main Content */}
